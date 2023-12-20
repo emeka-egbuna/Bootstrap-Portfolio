@@ -150,3 +150,38 @@ h1, h2, h3 , h4, h5, h6 {
     margin: 0 auto;
   }
   
+  .row ul {
+    list-style-type:circle;
+
+    padding: 0 40px;
+  }
+
+  .row ul li {
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .row ul li:hover {
+    color: #fff;
+    background-color: #5992cf86;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+
+    font-weight: bold;
+  }
+
+  .row #contact {
+    list-style-type: none;
+    list-style-position: outside;
+  }
+
+  .row #contact li:hover {
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+  }
+
+  .row a {
+    text-decoration: none;
+  }
